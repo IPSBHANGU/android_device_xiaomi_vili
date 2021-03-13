@@ -187,8 +187,8 @@
   <item name="wifi.active">160</item>  <!-- WIFI data transfer, ~200mA -->
   <item name="wifi.scan">1.2</item>  <!-- WIFI network scanning, ~100mA -->
 
-  <item name="dsp.audio">24</item> <!-- ~10mA -->
-  <item name="dsp.video">66</item> <!-- ~50mA -->
+  <item name="audio">24</item> <!-- ~10mA -->
+  <item name="video">66</item> <!-- ~50mA -->
 
   <item name="camera.flashlight">600</item> <!-- Avg. power for camera flash, ~160mA -->
   <item name="camera.avg">368</item> <!-- Avg. power use of camera in standard usecases, ~550mA -->
