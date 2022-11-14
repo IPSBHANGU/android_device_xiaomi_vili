@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from vili_in-user 12 SKQ1.211006.001 V13.0.6.0.SKOMIXM release-keys
+# All unpinned blobs below are extracted from vili_in-user 12 SKQ1.211001.001 V13.0.10.0.SKDINXM release-keys
 
 # Audio (acdbdata)
 vendor/etc/acdbdata/Tutu/Tutu_Bluetooth_cal.acdb
@@ -369,15 +369,26 @@ vendor/lib64/camera/components/com.xiaomi.node.tracker.so
 vendor/lib64/camera/components/libdepthmapwrapper_secure.so
 
 # Camera (configs)
+vendor/etc/camera/fusion_models/fusion_cache
 vendor/etc/camera/fusion_models/fusion_model
-vendor/etc/camera/fusion_models/fusion_model
+vendor/etc/camera/fusion_models/fusion_policy
+vendor/etc/camera/mibokeh/add_concat_quantize_encry.dlc
+vendor/etc/camera/mibokeh/model_dxo.dlc
+vendor/etc/camera/mibokeh/portrait_blur_800_quan_encry-softmax.dlc
 vendor/etc/camera/xiaomi/dualbokehjpegsnapshot.json
 vendor/etc/camera/xiaomi/dualbokehsnapshot.json
 vendor/etc/camera/xiaomi/frontbokehsnapshot.json
 vendor/etc/camera/xiaomi/frontsinglesnapshot.json
 vendor/etc/camera/xiaomi/frontsupernightsnapshot.json
 vendor/etc/camera/xiaomi/frontsupernightsnapshotjpeg.json
+vendor/etc/camera/xiaomi/manualsnapshot.json
+vendor/etc/camera/xiaomi/mfnrfusionsnapshot.json
+vendor/etc/camera/xiaomi/miviinfo.json
+vendor/etc/camera/xiaomi/mivisettings.txt
 vendor/etc/camera/xiaomi/normalsnapshot.json
+vendor/etc/camera/xiaomi/rearsupernightsnapshot.json
+vendor/etc/camera/xiaomi/satsnapshot.json
+vendor/etc/camera/xiaomi/superhdsnapshot.json
 vendor/etc/camera/xiaomi/thirdpartydualbokehyuvsnapshot.json
 vendor/etc/camera/xiaomi/thirdpartyjpegsnapshot.json
 vendor/etc/camera/xiaomi/thirdpartysnapshot.json
@@ -385,29 +396,73 @@ vendor/etc/camera/CFR_para_MACRO_V01.bin
 vendor/etc/camera/CFR_para_MACRO_V01_L.bin
 vendor/etc/camera/CFR_para_MACRO_V01_SN.bin
 vendor/etc/camera/CFR_para_MACRO_V01_SN_L.bin
+vendor/etc/camera/CFR_para_UW_V01.bin
 vendor/etc/camera/CFR_para_UW_V01_L.bin
 vendor/etc/camera/CFR_para_UW_V01_SN.bin
 vendor/etc/camera/CFR_para_UW_V01_SN_L.bin
+vendor/etc/camera/CFR_para_W_V01.bin
+vendor/etc/camera/CFR_para_W_V01_HD.bin
+vendor/etc/camera/CFR_para_W_V01_HD_L.bin
+vendor/etc/camera/CFR_para_W_V01_IZOOM.bin
 vendor/etc/camera/CFR_para_W_V01_IZOOM_L.bin
 vendor/etc/camera/CFR_para_W_V01_L.bin
+vendor/etc/camera/CFR_para_W_V01_SN.bin
 vendor/etc/camera/CFR_para_W_V01_SN_L.bin
 vendor/etc/camera/GpuKernelRepo.pb
 vendor/etc/camera/LDC_FPC_TUNING_DATA.bin
 vendor/etc/camera/LDC_FPC_TUNING_DATA_AI.bin
+vendor/etc/camera/LDC_PACKDATA_VENDORID_0x01.bin
+vendor/etc/camera/LDC_PACKDATA_VENDORID_0x03.bin
+vendor/etc/camera/LDC_PACKDATA_VENDORID_0x07.bin
 vendor/etc/camera/MobNetv2TF_0.35_iter200000_zoom2.5x_h1500w2000.dlc
 vendor/etc/camera/ai_enhance.dlc
+vendor/etc/camera/aivsModels1
+vendor/etc/camera/aivsParams
+vendor/etc/camera/beauty_style_blue.cng
+vendor/etc/camera/beauty_style_masculine.cng
+vendor/etc/camera/beauty_style_neutral.cng
+vendor/etc/camera/beauty_style_nude.cng
+vendor/etc/camera/beauty_style_pink.cng
+vendor/etc/camera/beauty_style_skin_gloss.cng
+vendor/etc/camera/bokehParams.json
 vendor/etc/camera/cache
+vendor/etc/camera/camxoverridesettings.txt
+vendor/etc/camera/camxoverridesettings_dev.txt
 vendor/etc/camera/com.xiaomi.dcal.wu.golden
+vendor/etc/camera/deblur_sd_opencl_binary.bin
+vendor/etc/camera/deblur_sd_opencl_params.bin
+vendor/etc/camera/deblur_txt_dsp.dlc
 vendor/etc/camera/deblur_txt_gpu.dlc
+vendor/etc/camera/det_quantize.dlc
+vendor/etc/camera/dualcam_bokeh_params.json
 vendor/etc/camera/eisoverridesettings.txt
+vendor/etc/camera/ellc.bin
+vendor/etc/camera/ellc_params.xml
+vendor/etc/camera/fusion_mecp.bin
+vendor/etc/camera/hdr_ui9_params.config
+vendor/etc/camera/intsense_config_optical_zoom_2sat.bin
+vendor/etc/camera/megviifacepp_0_5_2_model
+vendor/etc/camera/miSATTRatio_params_2sat.json
+vendor/etc/camera/miSAT_params_2sat.json
+vendor/etc/camera/mibokeh_855_opencl.bin
+vendor/etc/camera/mibokeh_855_parameter.bin
+vendor/etc/camera/model_ai_dxo.dlc
+vendor/etc/camera/model_back.dlc
+vendor/etc/camera/model_front.dlc
+vendor/etc/camera/model_front_mibokeh_video.dlc
+vendor/etc/camera/model_glass.dlc
 vendor/etc/camera/person_det_dsp.dlc
 vendor/etc/camera/person_reid_gpu.dlc
+vendor/etc/camera/preview_bokeh_params.json
 vendor/etc/camera/pureShot_parameter.xml
+vendor/etc/camera/reid_float.dlc
 vendor/etc/camera/sceneDetection.xml
 vendor/etc/camera/siq_ocl_cache
 vendor/etc/camera/sr_params.xml
 vendor/etc/camera/st_license.lic
 vendor/etc/camera/superiq_model
+vendor/etc/camera/vidhance_calibration
+vendor/etc/camera/vili_motiontuning.xml
 
 # Camera (plugins)
 vendor/lib64/camera/plugins/com.qcom.plugin.gpu.so
